@@ -203,7 +203,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi-libperfmgr
+    android.hardware.power-service.lineage-libperfmgr
 
 # Power configurations
 PRODUCT_COPY_FILES += \
@@ -360,7 +360,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
 	hardware/mediatek \
-	hardware/xiaomi
+	hardware/xiaomi \
+    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/mediatek/libmtkperf_client
 
 # Add vendor log tags
 include $(LOCAL_PATH)/configs/props/vendor_log_tags.mk
