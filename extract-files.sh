@@ -113,5 +113,4 @@ extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTIO
 "${MY_DIR}/setup-makefiles.sh"
 
 vndk_import "${ANDROID_ROOT}" "libutils" "32" "both" "vndk-sp"
-vndk_import "${ANDROID_ROOT}" "libstagefright_foundation" "33" "both" "vndk-core"
 
